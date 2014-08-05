@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>smile binaryFile collector datatype</name>
+        <version>0.1</version>
+        <copyright>smile</copyright>
+    </metadata>
+    <dependencies>
+        <extends>
+        </extends>
+    </dependencies>
+</software>
