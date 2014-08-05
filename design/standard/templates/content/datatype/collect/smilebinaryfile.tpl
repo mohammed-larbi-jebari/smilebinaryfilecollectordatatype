@@ -3,7 +3,7 @@
 {if not(is_set($class_css))}
 {def $class_css=''}
 {/if}
-test
+
 <div class="block">
 <label for="ezcoa-{if ne( $attribute_base, 'ContentObjectAttribute' )}{$attribute_base}-{/if}{$attribute.contentclassattribute_id}_{$attribute.contentclass_attribute_identifier}">{'New file for upload'|i18n( 'design/standard/content/datatype' )}:</label>
 <input type="hidden" name="MAX_FILE_SIZE" value="{$attribute.contentclass_attribute.data_int1}000000"/>
